@@ -12,17 +12,17 @@ This is an expense sharing application where you can add your expenses and split
 
 **Requirements**
 
-1. User creation: Each user created should have a userId, name, email and mobile number
-2. Expense addition: Could either be EQUAL, EXACT or PERCENT. Expense in the format: EXPENSE <user-id-of-person-who-paid> <no-of-users> <space-separated-list-of-users> <EQUAL/EXACT/PERCENT> <space-separated-values-in-case-of-non-equal>
-3. Show balances for all: SHOW
-4. Show balances for a single user: SHOW <user-id>
+- User creation: Each user created should have a userId, name, email and mobile number
+- Expense addition: Could either be EQUAL, EXACT or PERCENT. Expense in the format: EXPENSE <user-id-of-person-who-paid> <no-of-users> <space-separated-list-of-users> <EQUAL/EXACT/PERCENT> <space-separated-values-in-case-of-non-equal>
+- Show balances for all: SHOW
+- Show balances for a single user: SHOW <user-id>
   
 
 **Some of the conditions to consider while designing this application:**
   
-1. The percent and amount provided could have decimals upto two decimal places.
-2. In case of percent, you need to verify if the total sum of percentage shares is 100 or not.
-3. In case of exact, you need to verify if the total sum of shares is equal to the total amount or not.
-4. The amount should be rounded off to two decimal places. Say if User1 paid 100 and amount is split equally among 3 people. Assign 33.34 to first person and 33.33 to others.
+- The percent and amount provided could have decimals upto two decimal places.
+- In case of percent, you need to verify if the total sum of percentage shares is 100 or not.
+- In case of exact, you need to verify if the total sum of shares is equal to the total amount or not.
+- The amount should be rounded off to two decimal places. Say if User1 paid 100 and amount is split equally among 3 people. Assign 33.34 to first person and 33.33 to others.
   
   Source: [work@tech](https://workat.tech/)
